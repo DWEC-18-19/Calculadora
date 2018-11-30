@@ -2,6 +2,9 @@
 
 const Calculadora = function() {
   this.evaluar = cadena => {
-    return 0; 
+  	 // TODO: borrar eval y completar el código
+  	 var expresion = eval(cadena);
+
+     return expresion; 
   }
 };
